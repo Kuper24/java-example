@@ -1,0 +1,10 @@
+<template unencoded="false">
+  <roots>
+    <root index="0" path="example-domain" />
+    <root index="1" path="example-front" />
+    <root index="2" path="example-repository" />
+    <root index="3" path="example-rest" />
+    <root index="4" path="example-service" />
+    <root index="5" path="" />
+  </roots>
+</template>
