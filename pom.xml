@@ -32,11 +32,11 @@
         <dependencies>
 
             <!--JSR 303: Bean Validation-->
-            <dependency>
+            <!--  <dependency>
                 <groupId>javax.el</groupId>
                 <artifactId>javax.el-api</artifactId>
                 <version>4.0.0</version>
-            </dependency>
+            </dependency>-->
         </dependencies>
     </dependencyManagement>
     <build>
@@ -216,10 +216,10 @@
             <groupId>javax.validation</groupId>
             <artifactId>validation-api</artifactId>
         </dependency>
-        <dependency>
+        <!--<dependency>
             <groupId>javax.el</groupId>
             <artifactId>javax.el-api</artifactId>
-        </dependency>
+        </dependency>-->
         <dependency>
             <groupId>com.sun.el</groupId>
             <artifactId>el-ri</artifactId>
