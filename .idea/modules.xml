@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/domain/domain.iml" filepath="$PROJECT_DIR$/domain/domain.iml" />
       <module fileurl="file://$PROJECT_DIR$/example-domain/example-domain.iml" filepath="$PROJECT_DIR$/example-domain/example-domain.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/java-example.iml" filepath="$PROJECT_DIR$/.idea/java-example.iml" />
-      <module fileurl="file://$PROJECT_DIR$/untitled/untitled.iml" filepath="$PROJECT_DIR$/untitled/untitled.iml" />
+      <module fileurl="file://$PROJECT_DIR$/example-front/example-front.iml" filepath="$PROJECT_DIR$/example-front/example-front.iml" />
+      <module fileurl="file://$PROJECT_DIR$/example-repository/example-repository.iml" filepath="$PROJECT_DIR$/example-repository/example-repository.iml" />
+      <module fileurl="file://$PROJECT_DIR$/example-rest/example-rest.iml" filepath="$PROJECT_DIR$/example-rest/example-rest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/example-service/example-service.iml" filepath="$PROJECT_DIR$/example-service/example-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-example.iml" filepath="$PROJECT_DIR$/java-example.iml" />
     </modules>
   </component>
 </project>
