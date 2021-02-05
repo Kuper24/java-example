@@ -2,17 +2,12 @@ package example.domain.car;
 
 import lombok.Data;
 
-import javax.persistence.Id;
-import java.util.UUID;
-
+/**
+ * Created by Max.B on 03.02.2021.
+ * Марка авто
+ */
 @Data
 public class BrandCar {
-
-    /**
-     * Идентификатор
-     */
-    @Id
-    private UUID id;
 
     /**
      * Наименование марки
@@ -22,10 +17,27 @@ public class BrandCar {
     /**
      * Модель
      */
-    private String madel;
+    private String model;
 
     /**
      * Цвет
      */
     private String color;
+
+    public String getName() {
+        return this.name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public BrandCar() {
+    }
+
+    public BrandCar(String name, String model, String color) {
+        this.name = name;
+        this.model = model;
+        this.color = color;
+    }
 }
